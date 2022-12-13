@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.screen {
+    padding: 10px 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
